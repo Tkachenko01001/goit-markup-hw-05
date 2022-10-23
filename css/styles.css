@@ -46,14 +46,14 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #2196F3;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .web-text-style:hover {
     color: #2196F3;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .webstudio-text-style {
@@ -64,13 +64,13 @@ ul {
     letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .webstudio-text-style:hover {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-text-style,
@@ -82,6 +82,8 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
     color: #212121;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -91,8 +93,6 @@ ul {
 .mail-text-style:hover,
 .number-text-style:hover {
     color: #2196F3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .studio-text-style:focus,
@@ -265,12 +265,12 @@ address {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-webstudio-text-style:hover {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-map-text-style {
@@ -280,6 +280,8 @@ address {
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-mail-text-style,
@@ -290,6 +292,8 @@ address {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-map-text-style:hover,
@@ -297,8 +301,6 @@ address {
 .footer-number-text-style:hover {
     color: #2196F3;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-map-text-style:focus,
@@ -347,13 +349,13 @@ address {
     border-radius: 50%;
     width: 44px;
     height: 44px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
 .footer-social-link:hover {
     background: #2196F3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:focus {
@@ -382,13 +384,16 @@ address {
     padding: 0px;
 }
 
+.btn-hover {
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .btn-hover:hover {
     cursor: pointer;
     background: #2196F3;
     color: #FFFFFF;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-hover:focus {
@@ -443,12 +448,12 @@ address {
 
 .card-line {
     flex-basis: calc((100% - 60px) / 3);
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .card-line:hover {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .overlay-text-style {
@@ -556,13 +561,12 @@ address {
     width: 216px;
     height: 50px;
     margin-top: 30px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .botton-text-style:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
 }
 
 /* hidden header */
@@ -703,16 +707,17 @@ img {
 }
 
 .social-link {
+    fill: #AFB1B8;
     width: 44px;
     height: 44px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover {
     fill: #FFFFFF;
     background: #2196F3;
     border-radius: 50%;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:focus {
@@ -721,10 +726,6 @@ img {
     border-radius: 50%;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.social-link {
-   fill: #AFB1B8; 
 }
 
 .section-company-team-style {
@@ -793,34 +794,28 @@ img {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partner-link {
+    fill: #AFB1B8;
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.partner-link {
     width: 170px;
     height: 92px;
-}
-
-.partner-link {
-  fill: #AFB1B8;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partner-link:hover {
     fill: #2196F3;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partner-line:hover {
     border: 1px solid #2196F3;
     border-radius: 4px;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .partner-line:focus {
@@ -850,11 +845,13 @@ img {
     top: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.2);
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    opacity: 1;
 }
 
 .backdrop.is-hidden .modal {
     transform: translate(-50%, -50%) scale(0.9);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal {
@@ -868,9 +865,8 @@ img {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.is-hidden {
+.backdrop.is-hidden {
     opacity: 0;
-    visibility: hidden;
     pointer-events: none;
 }
 
